@@ -16,11 +16,23 @@ Create a simple application in which you can enter two postcodes and the system 
 
 - All code should be committed to a git branch in your name.
 
+### Setup
+
+1. `composer install`
+
+2. Create and configure the `.env` file 
+
+3. `php artisan key:generate`
+
+4. `php artisan migrate`
+
+5. Import the postcodes.sql file into your database
+
 ### Notes
 - This is a clean/new installation of laravel
 
 - A list of all uk postcodes, with their latitude and longitude can be found in the `postcodes.sql` file.
   You can import this file into your applications database.
 
-- To calculate distance between a pair of lat/lng you can use the formula provided here
-  [geodatasource.com](https://www.geodatasource.com/developers/php)
+- To calculate distance between a pair of lat/lng you can use the formula provided on
+  [geodatasource.com/developers/php](https://www.geodatasource.com/developers/php)

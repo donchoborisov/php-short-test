@@ -14,8 +14,6 @@ Create a simple application in which you can enter two postcodes and the system 
   
 - If the same postcode is entered for both the `From` and `To` fields, a custom exception should be thrown.
 
-- All code should be committed to a git branch in your name.
-
 ### Setup
 
 1. `composer install`
@@ -26,7 +24,7 @@ Create a simple application in which you can enter two postcodes and the system 
 
 4. `php artisan migrate`
 
-5. Import the postcodes.sql file into your database
+5. Extract and import the postcodes.tar.gz file into your database
 
 ### Notes
 - This is a clean/new installation of laravel

@@ -34,3 +34,6 @@ Create a simple application in which you can enter two postcodes and the system 
 
 - To calculate distance between a pair of lat/lng you can use the formula provided on
   [geodatasource.com/developers/php](https://www.geodatasource.com/developers/php)
+
+### Submission
+Create a fork of this repository and push your code to the fork. Ensure that the fork is publicly visible.
